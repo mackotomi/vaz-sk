@@ -8,6 +8,7 @@ body{
 header{
     background-color: red;
     display: flex;
+    flex-direction: column-reverse;
     padding: 1rem 0;
     
     li{
