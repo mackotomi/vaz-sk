@@ -1,0 +1,16 @@
+@use 'reset';
+@use 'variables';
+
+body{
+    background-color: green;
+}
+
+header{
+    background-color: red;
+    display: flex;
+    padding: 1rem 0;
+    
+    li{
+        display: inline-block;
+    }
+}
