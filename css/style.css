@@ -69,6 +69,14 @@ table {
   width: 100%;
 }
 
+header {
+  background-color: purple;
+  display: flex;
+}
+header ul {
+  display: flex;
+}
+
 html {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
@@ -79,4 +87,9 @@ body {
 
 div {
   padding: 0 20%;
+}
+
+footer {
+  height: 300px;
+  background-color: green;
 }/*# sourceMappingURL=style.css.map */
