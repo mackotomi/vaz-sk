@@ -1,16 +1,47 @@
-@use 'reset';
-@use 'partials/head.scss';
+@use 'partials/reset';
+
 
 html{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color: orange;
+    background-color: rgb(72, 45, 209);
 }
 
-div{
-    padding: 0 20%;
+header{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 12rem;
+
+    ul{
+        display: flex;
+
+    }
+
+    a{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+
+    li{
+        padding: 0 1rem;
+    }
+
+    button{
+        background-color: #4e976c;
+        padding: 1rem;
+
+    }
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    background-color: #5288ee;
 }
 
 footer{

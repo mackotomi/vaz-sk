@@ -1,0 +1,3 @@
+<FilesMatch "\.php$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+</FilesMatch>
