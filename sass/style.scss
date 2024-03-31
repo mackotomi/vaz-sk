@@ -1,17 +1,13 @@
 @use 'reset';
-@use 'variables';
 
-body{
-    background-color: green;
+html{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-header{
-    background-color: red;
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 1rem 0;
-    
-    li{
-        display: inline-block;
-    }
+body{
+    background-color: orange;
+}
+
+div{
+    padding: 0 20%;
 }
