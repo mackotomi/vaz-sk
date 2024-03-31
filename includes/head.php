@@ -18,30 +18,38 @@
 
 <html>
 <body>
+    <div class="Bg--Bar"></div>
 <!-- Header Section -->
 <header>
-    <!-- Header Logo -->
-    <div>
-        <a href="index.php">
-            <img src="src/svg/logo.svg" alt="V&Z, s.r.o. (VAZ) - Firemné Logo">
+
+    <div class="navigation--container">
+        <!-- Header Logo -->
+        <div>
+            <a href="index.php">
+                <img class="Header__Logo" src="src/svg/logo.svg" alt="V&Z, s.r.o. (VAZ) - Firemné Logo">
+            </a>
+        </div>
+        <!-- Header Navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.php" class="active" >Domov</a></li>
+                <li><a href="sluzby.php">Služby</a></li>
+                <li><a href="kontakt.php">Kontakt</a></li>
+                <li><a href="dokumenty.php">Dokumenty</a></li>
+                <li><a href="cennik.php">Cennik</a></li>
+                <li><a href="fotogaleria.php">Fotogaléria</a></li>
+            </ul>
+        </nav>
+        <!-- Reservation Button -->
+        <a href="" class="Reservation__Button">
+                <img src="src/svg/hand.svg" alt="Hand Icon">
+                <span>Rezervácia</span>
         </a>
-    </div>
-    <!-- Header Navigation -->
-    <nav>
-        <ul>
-            <li><a href="index.php">Domov</a></li>
-            <li><a href="sluzby.php">Služby</a></li>
-            <li><a href="kontakt.php">Kontakt</a></li>
-            <li><a href="dokumenty.php">Dokumenty</a></li>
-            <li><a href="cennik.php">Cennik</a></li>
-            <li><a href="fotogaleria.php">Fotogaléria</a></li>
-        </ul>
-    </nav>
-    <!-- Reservation Button -->
-    <a href=""><button>Rezervácia</button></a>
-    <!-- Header Language Selection -->
-    <div class="languages">
-        <a href="">SK</a>
-        <a href="">HU</a>
+
+        <!-- Header Language Selection -->
+        <div class="languages">
+            <a href="">SK</a>
+            <a href="">HU</a>
+        </div>
     </div>
 </header>

@@ -77,15 +77,45 @@ body {
   background-color: rgb(72, 45, 209);
 }
 
+.Bg--Bar {
+  border-top: 2px solid yellow;
+  height: 80px;
+  width: 100%;
+  background-color: #000000;
+  background-image: url("../src/svg/pattern.svg");
+}
+
 header {
   background-color: #000000;
+  padding: 60px 100px;
+}
+header .active {
+  font-weight: 600;
+}
+header .navigation--container {
+  border-top: solid 1px rgb(36, 36, 36);
+  border-bottom: solid 1px rgb(36, 36, 36);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 12rem;
+}
+header .Header__Logo {
+  max-width: 200px;
+  min-width: 100px;
 }
 header ul {
   display: flex;
+}
+header .Reservation__Button {
+  display: flex;
+  flex-direction: row;
+  background-color: #111111;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #2D2D2D;
+}
+header .Reservation__Button img {
+  padding-right: 0.8rem;
 }
 header a {
   color: white;
@@ -93,17 +123,16 @@ header a {
   font-weight: 100;
 }
 header li {
-  padding: 0 1rem;
-}
-header button {
-  background-color: #4e976c;
-  padding: 1rem;
+  padding: 1rem 1rem;
 }
 
 .languages {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  align-items: center;
   background-color: #5288ee;
+  font-size: 1rem;
 }
 
 footer {
