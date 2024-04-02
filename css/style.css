@@ -160,6 +160,7 @@ header .Reservation__Button img {
   gap: 10px;
   align-items: center;
   font-size: 1rem;
+  text-align: center;
 }
 
 .languages a {
@@ -184,4 +185,10 @@ header .Reservation__Button img {
 footer {
   height: 300px;
   background-color: green;
+}
+
+.Burger {
+  position: fixed;
+  inset: 0;
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */

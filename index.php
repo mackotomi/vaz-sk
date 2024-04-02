@@ -1,7 +1,7 @@
 <!-- Head Partial Including Doctype, Head, Body, Html Beginning Tags -->
 <?php include 'includes/head.php'; ?>
 
-
+    <!-- Slider Component -->
     <div class="slider--component">
         <div class="slider__container">
             <div class="slider__text">
@@ -14,6 +14,7 @@
         </div>
     </div>
 
+    <!-- About VAZ Component -->
     <div class="about--component">
         <div class="about__text">
             <h1>O VAZ - [V&Z]</h1>

@@ -108,6 +108,7 @@ header{
     gap: 10px;
     align-items: center;
     font-size: 1rem;
+    text-align: center;
 }
 
 .languages a{
@@ -133,4 +134,10 @@ header{
 footer{
     height: 300px;
     background-color: green;
+}
+
+.Burger{
+    position: fixed;
+    inset: 0;
+    background-color: red;
 }

@@ -51,6 +51,17 @@
         <div class="languages">
             <a href="">SK</a>
             <a href="">HU</a>
-        </div>
+    </div>
+
+    </div class="Burger">
+            <!-- Hamburger Menu -->
+            <div class="Burger__menu">
+                <li><a href="index.php" class="active" >Domov</a></li>
+                <li><a href="sluzby.php">Služby</a></li>
+                <li><a href="kontakt.php">Kontakt</a></li>
+                <li><a href="dokumenty.php">Dokumenty</a></li>
+                <li><a href="cennik.php">Cennik</a></li>
+                <li><a href="fotogaleria.php">Fotogaléria</a></li>
+            </div>
     </div>
 </header>
