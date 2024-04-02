@@ -169,6 +169,18 @@ header .Reservation__Button img {
   border-radius: 0.3rem;
 }
 
+.slider--component {
+  height: 500px;
+  width: 100%;
+  background-color: grey;
+  padding: 60px 100px;
+}
+.slider--component .slider__container {
+  width: 100%;
+  height: 400px;
+  background-color: orange;
+}
+
 footer {
   height: 300px;
   background-color: green;

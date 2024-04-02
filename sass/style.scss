@@ -25,7 +25,6 @@ header{
         transition: .3s;
       }
 
-
     .Header__Logo:hover {
         filter: brightness(115%); /* Brigthtness of Logo*/
         transition: filter .3s;
@@ -116,6 +115,19 @@ header{
     height: 2rem;
     background-color: #FFC701;
     border-radius: 0.3rem;
+}
+
+.slider--component{
+    height: 500px;
+    width: 100%;
+    background-color: grey;
+    padding: 60px 100px;
+
+    .slider__container{
+        width: 100%;
+        height: 400px;
+        background-color: orange;
+    }
 }
 
 footer{

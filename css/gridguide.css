@@ -1,0 +1,73 @@
+html{
+    position: relative;
+}
+
+/* WARNING: THIS GRID IS PURELY FOR VISUAL GUIDE */
+/* Setup the grid container based on Figma Grid settings. */
+
+.grid--container {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr); /* Figma - Columns */
+        gap: 30px; /* Figma - Gutter  */
+        z-index: 1000; /* Ensure it's above other content */
+        pointer-events: none; /* Allows clicks to pass through */
+        width: calc(100% - 200px); /* Figma - Margin */
+        left: 100px; /* Figma - Margin */
+        right: 100px; /* Figma - Margin */
+}
+
+.grid_column{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 34, 96, 0.2); /* Figma - Grid Color */
+}
+
+.container{
+    margin: 0 100px;
+}
+
+.display{
+    cursor: pointer;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.hide{
+    display: none;
+}
+
+
+@media (max-width: 1400px) {
+    .grid--container {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+@media (max-width: 1100px) {
+    .grid--container {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .grid--container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid--container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 420px) {
+    .grid--container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
