@@ -101,7 +101,7 @@ header .active {
   padding-bottom: 5px;
   border-bottom: solid red 2px;
 }
-header a {
+header nav a {
   letter-spacing: 0.1em;
 }
 header ul a {
@@ -119,6 +119,9 @@ header .navigation--container {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+}
+header .navigation--container nav {
+  transition: 0.3s ease-in-out;
 }
 header .Header__Logo {
   max-width: 200px;
@@ -158,14 +161,15 @@ header .Reservation__Button img {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  align-items: center;
   font-size: 1rem;
-  text-align: center;
 }
 
 .languages a {
-  width: 2rem;
-  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
   background-color: #FFC701;
   border-radius: 0.3rem;
 }
@@ -187,8 +191,19 @@ footer {
   background-color: green;
 }
 
+/* 
+!Time to make some burgers
+*/
 .Burger {
   position: fixed;
   inset: 0;
   background-color: red;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 1395px) {
+  .navigation--container nav {
+    font-size: 0.8rem;
+    transition: 0.3s ease-in-out;
+  }
 }/*# sourceMappingURL=style.css.map */

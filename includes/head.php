@@ -24,13 +24,13 @@
 <header>
 
     <div class="navigation--container">
-        <!-- Header Logo -->
+        <!-- Logo -->
         <div>
             <a href="index.php">
                 <img class="Header__Logo" src="src/svg/logo.svg" alt="V&Z, s.r.o. (VAZ) - Firemné Logo">
             </a>
         </div>
-        <!-- Header Navigation -->
+        <!-- Menu Navigation -->
         <nav>
             <ul>
                 <li><a href="index.php" class="active" >Domov</a></li>
@@ -51,6 +51,7 @@
         <div class="languages">
             <a href="">SK</a>
             <a href="">HU</a>
+        </div>
     </div>
 
     </div class="Burger">
