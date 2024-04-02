@@ -101,9 +101,16 @@ header .active {
   padding-bottom: 5px;
   border-bottom: solid red 2px;
 }
+header a {
+  letter-spacing: 0.1em;
+}
+header ul a {
+  transition: text-shadow 0.3s;
+}
 header ul a:hover {
   padding-bottom: 5px;
   border-bottom: solid rgb(61, 0, 0) 2px;
+  text-shadow: 0 0 0.65px #ffffff, 0 0 0.65px #ffffff;
 }
 header .navigation--container {
   border-top: solid 1px rgb(36, 36, 36);

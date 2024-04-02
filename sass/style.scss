@@ -37,9 +37,18 @@ header{
         border-bottom: solid red 2px;
     }
 
+    a{
+        letter-spacing: .1em;
+    }
+
+    ul a{
+        transition: text-shadow .3s;
+    }
+
     ul a:hover{
         padding-bottom: 5px;
         border-bottom: solid rgb(61, 0, 0) 2px;
+        text-shadow: 0 0 .65px #ffffff, 0 0 .65px #ffffff;
     }
 
     .navigation--container{
