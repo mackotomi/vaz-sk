@@ -87,7 +87,7 @@ header{
         border-right: none;
     }
 
-    .Reservation__Button{
+    .Reservation--Button{
         display: flex;
         flex-direction: row;
         background-color: #111111;
@@ -98,7 +98,7 @@ header{
         text-transform: uppercase;
     }
 
-    .Reservation__Button img{
+    .Reservation--Button img{
         padding-right: 0.8rem;
         scale: 1.3;
     }
@@ -106,14 +106,14 @@ header{
 
 }
 
-.languages{
+.Languages{
     display: flex;
     flex-direction: column;
     gap: 10px;
     font-size: 1rem;
 }
 
-.languages a{
+.Languages a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,18 +146,37 @@ footer{
 !Time to make some burgers
 */
 
-.Burger{
+.Burger--Menu{
     position: fixed;
     inset: 0;
     background-color: red;
+
+    .Burger__links ul{
+        display: block;
+    }
 }
 
-    /* Media query for smaller screens */
-    @media screen and (max-width: 1395px) {
-   
-        .navigation--container nav{
-            font-size: 0.8rem;
-            transition: .3s ease-in-out;
-        }
-}
+/* Media query for screens smaller than 600px wide */
+@media only screen and (max-width: 1600px) {
+   nav{
+    display: inline-block;
+    inset: 0;
+    position: fixed;
+    background-color: black;
+    z-index: 999;
+    }
 
+    nav ul{
+    position: absolute;
+    display: block;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+    nav li{
+        border-right: none;
+        padding: 0;
+    }
+  }

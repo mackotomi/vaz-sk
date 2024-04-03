@@ -19,7 +19,8 @@
 
 <html>
 <body>
-    <div class="Bg--Bar"></div>
+<!-- Visual Tech Bar -->
+<div class="Bg--Bar"></div>
 <!-- Header Section -->
 <header>
 
@@ -41,28 +42,29 @@
                 <li><a href="fotogaleria.php">Fotogaléria</a></li>
             </ul>
         </nav>
+
         <!-- Reservation Button -->
-        <a href="" class="Reservation__Button">
+        <a href="" class="Reservation--Button">
                 <img src="src/svg/hand.svg" alt="Hand Icon">
                 <span>Rezervácia</span>
         </a>
 
         <!-- Header Language Selection -->
-        <div class="languages">
+        <div class="Languages">
             <a href="">SK</a>
             <a href="">HU</a>
         </div>
     </div>
 
-    </div class="Burger">
-            <!-- Hamburger Menu -->
-            <div class="Burger__menu">
+    <!-- Responsive Header Navigation Menu -->
+    <!-- <div class="Burger--Menu">
+            <ul class="Burger__Links">
                 <li><a href="index.php" class="active" >Domov</a></li>
                 <li><a href="sluzby.php">Služby</a></li>
                 <li><a href="kontakt.php">Kontakt</a></li>
                 <li><a href="dokumenty.php">Dokumenty</a></li>
                 <li><a href="cennik.php">Cennik</a></li>
                 <li><a href="fotogaleria.php">Fotogaléria</a></li>
-            </div>
-    </div>
+            </ul>
+    </div> -->
 </header>
