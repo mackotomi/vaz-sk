@@ -191,14 +191,6 @@ footer {
   background-color: green;
 }
 
-/* ↓ Burger Menu Icon ↓ */
-.Burger--Icon img {
-  background-color: red;
-  scale: 1;
-  fill: rgb(255, 255, 255);
-}
-
-/* ↑ Burger Menu Icon ↑ */
 /* 
 ! Bellow is the setup 
 ! for the Javascript
@@ -228,4 +220,26 @@ footer {
   color: black;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+/* ↓ Burger Menu Icon ↓ */
+.Burger--Icon {
+  display: none;
+}
+.Burger--Icon img {
+  scale: 1;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  filter: invert(1) grayscale(100%);
+}
+
+/* ↑ Burger Menu Icon ↑ */
+@media screen and (max-width: 1340px) {
+  .Burger--Icon {
+    display: block;
+  }
+  .Navigation--Container nav {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

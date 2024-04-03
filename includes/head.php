@@ -46,7 +46,6 @@
 
         <!-- Burger Menu Icon -->
         <div class="Burger--Icon">
-            <span>Menu</span>
             <img src="src/svg/menu.svg" alt="Burger Menu Icon">
         </div>
 
