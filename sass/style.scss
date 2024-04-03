@@ -186,8 +186,6 @@ footer{
 /* ↓ Burger Menu Icon ↓ */
 
 .Burger--Icon{
-    display: none;
-
     img{
         scale: 1.0;
         width: 50px;
@@ -197,6 +195,9 @@ footer{
     }
 }
 
+.BurgerVisibility{
+    display: block;
+}
 /* ↑ Burger Menu Icon ↑ */
 
 

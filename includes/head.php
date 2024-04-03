@@ -65,7 +65,7 @@
 
 <!-- Responsive Header Navigation Menu -->
 <div class="Burger--Menu">
-        <ul class="Burger__Links">
+    <ul class="Burger__Links">
             <li><a href="index.php">Domov</a></li>
             <li><a href="sluzby.php">Služby</a></li>
             <li><a href="kontakt.php">Kontakt</a></li>
