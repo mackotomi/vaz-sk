@@ -50,7 +50,7 @@ header{
         text-shadow: 0 0 .65px #ffffff, 0 0 .65px #ffffff;
     }
 
-    .navigation--container{
+    .Navigation--Container{
          border-top: solid 1px rgb(36, 36, 36);
          border-bottom: solid 1px rgb(36, 36, 36);
          display: flex;
@@ -59,7 +59,7 @@ header{
          padding: 1rem 0;
     }
 
-    .navigation--container nav{
+    .Navigation--Container nav{
         transition: .3s ease-in-out;
     }
 
@@ -102,8 +102,6 @@ header{
         padding-right: 0.8rem;
         scale: 1.3;
     }
-
-
 }
 
 .Languages{
@@ -111,18 +109,20 @@ header{
     flex-direction: column;
     gap: 10px;
     font-size: 1rem;
+
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        background-color: #FFC701;
+        border-radius: 0.3rem;
+        // align-self: center;
+    }
 }
 
-.Languages a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    background-color: #FFC701;
-    border-radius: 0.3rem;
-    // align-self: center;
-}
+
 
 .slider--component{
     height: 500px;
@@ -142,41 +142,50 @@ footer{
     background-color: green;
 }
 
+
+
+/* ↓ Burger Menu Icon ↓ */
+
+.Burger--Icon img{
+    background-color: red;
+    scale: 1.0;
+    fill: rgb(255, 255, 255);
+}
+
+/* ↑ Burger Menu Icon ↑ */
+
+
 /* 
-!Time to make some burgers
+! Bellow is the setup 
+! for the Javascript
+! to toggle the display css property.
 */
 
 .Burger--Menu{
-    position: fixed;
-    inset: 0;
-    background-color: red;
-
-    .Burger__links ul{
-        display: block;
-    }
-}
-
-/* Media query for screens smaller than 600px wide */
-@media only screen and (max-width: 1600px) {
-   nav{
-    display: inline-block;
+    display: none; 
     inset: 0;
     position: fixed;
-    background-color: black;
+    background-color: #FFC701;
     z-index: 999;
-    }
 
-    nav ul{
-    position: absolute;
-    display: block;
-    font-size: 2rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    ul{
+        position: absolute;
+        display: block;
+        font-size: 2rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     nav li{
         border-right: none;
         padding: 0;
     }
-  }
+
+    a{
+        font-family: 'Roboto',Arial, Helvetica, sans-serif;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}

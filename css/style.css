@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reset */
 /*--------------------------------------*/
 /* Box sizing rules */
@@ -112,7 +113,7 @@ header ul a:hover {
   border-bottom: solid rgb(61, 0, 0) 2px;
   text-shadow: 0 0 0.65px #ffffff, 0 0 0.65px #ffffff;
 }
-header .navigation--container {
+header .Navigation--Container {
   border-top: solid 1px rgb(36, 36, 36);
   border-bottom: solid 1px rgb(36, 36, 36);
   display: flex;
@@ -120,7 +121,7 @@ header .navigation--container {
   align-items: center;
   padding: 1rem 0;
 }
-header .navigation--container nav {
+header .Navigation--Container nav {
   transition: 0.3s ease-in-out;
 }
 header .Header__Logo {
@@ -163,7 +164,6 @@ header .Reservation--Button img {
   gap: 10px;
   font-size: 1rem;
 }
-
 .Languages a {
   display: flex;
   justify-content: center;
@@ -191,37 +191,41 @@ footer {
   background-color: green;
 }
 
-/* 
-!Time to make some burgers
-*/
-.Burger--Menu {
-  position: fixed;
-  inset: 0;
+/* ↓ Burger Menu Icon ↓ */
+.Burger--Icon img {
   background-color: red;
-}
-.Burger--Menu .Burger__links ul {
-  display: block;
+  scale: 1;
+  fill: rgb(255, 255, 255);
 }
 
-/* Media query for screens smaller than 600px wide */
-@media only screen and (max-width: 1600px) {
-  nav {
-    display: inline-block;
-    inset: 0;
-    position: fixed;
-    background-color: black;
-    z-index: 999;
-  }
-  nav ul {
-    position: absolute;
-    display: block;
-    font-size: 2rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  nav li {
-    border-right: none;
-    padding: 0;
-  }
+/* ↑ Burger Menu Icon ↑ */
+/* 
+! Bellow is the setup 
+! for the Javascript
+! to toggle the display css property.
+*/
+.Burger--Menu {
+  display: none;
+  inset: 0;
+  position: fixed;
+  background-color: #FFC701;
+  z-index: 999;
+}
+.Burger--Menu ul {
+  position: absolute;
+  display: block;
+  font-size: 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Burger--Menu nav li {
+  border-right: none;
+  padding: 0;
+}
+.Burger--Menu a {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */

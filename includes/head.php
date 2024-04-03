@@ -24,13 +24,14 @@
 <!-- Header Section -->
 <header>
 
-    <div class="navigation--container">
+    <div class="Navigation--Container">
         <!-- Logo -->
         <div>
             <a href="index.php">
                 <img class="Header__Logo" src="src/svg/logo.svg" alt="V&Z, s.r.o. (VAZ) - Firemné Logo">
             </a>
         </div>
+
         <!-- Menu Navigation -->
         <nav>
             <ul>
@@ -43,7 +44,13 @@
             </ul>
         </nav>
 
-        <!-- Reservation Button -->
+        <!-- Burger Menu Icon -->
+        <div class="Burger--Icon">
+            <span>Menu</span>
+            <img src="src/svg/menu.svg" alt="Burger Menu Icon">
+        </div>
+
+        <!-- Reservation Button With Hand Icon-->
         <a href="" class="Reservation--Button">
                 <img src="src/svg/hand.svg" alt="Hand Icon">
                 <span>Rezervácia</span>
@@ -55,16 +62,16 @@
             <a href="">HU</a>
         </div>
     </div>
-
-    <!-- Responsive Header Navigation Menu -->
-    <!-- <div class="Burger--Menu">
-            <ul class="Burger__Links">
-                <li><a href="index.php" class="active" >Domov</a></li>
-                <li><a href="sluzby.php">Služby</a></li>
-                <li><a href="kontakt.php">Kontakt</a></li>
-                <li><a href="dokumenty.php">Dokumenty</a></li>
-                <li><a href="cennik.php">Cennik</a></li>
-                <li><a href="fotogaleria.php">Fotogaléria</a></li>
-            </ul>
-    </div> -->
 </header>
+
+<!-- Responsive Header Navigation Menu -->
+<div class="Burger--Menu">
+        <ul class="Burger__Links">
+            <li><a href="index.php">Domov</a></li>
+            <li><a href="sluzby.php">Služby</a></li>
+            <li><a href="kontakt.php">Kontakt</a></li>
+            <li><a href="dokumenty.php">Dokumenty</a></li>
+            <li><a href="cennik.php">Cennik</a></li>
+            <li><a href="fotogaleria.php">Fotogaléria</a></li>
+        </ul>
+</div>
