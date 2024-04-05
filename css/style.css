@@ -196,20 +196,24 @@ footer {
 ! for the Javascript
 ! to toggle the display css property.
 */
+.Burger--Icon-Exit {
+  cursor: pointer;
+}
+
 .Burger--Menu {
   display: none;
   inset: 0;
   position: fixed;
-  background-color: #FFC701;
+  background-color: #181818;
   z-index: 999;
 }
 .Burger--Menu ul {
   position: absolute;
-  display: block;
-  font-size: 2rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: block;
+  font-size: 2rem;
 }
 .Burger--Menu nav li {
   border-right: none;
@@ -217,22 +221,25 @@ footer {
 }
 .Burger--Menu a {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: black;
+  color: rgb(223, 223, 223);
   text-transform: uppercase;
   font-weight: 600;
 }
 
+.BurgerShowUp {
+  display: block;
+}
+
 /* ↓ Burger Menu Icon ↓ */
+.Burger--Icon {
+  display: none;
+}
 .Burger--Icon img {
   scale: 1;
   width: 50px;
   height: 50px;
   cursor: pointer;
   filter: invert(1) grayscale(100%);
-}
-
-.BurgerVisibility {
-  display: block;
 }
 
 /* ↑ Burger Menu Icon ↑ */

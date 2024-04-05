@@ -65,7 +65,9 @@
 
 <!-- Responsive Header Navigation Menu -->
 <div class="Burger--Menu">
-    <ul class="Burger__Links">
+    <div class="Burger__container>
+        <svg class="Burger--Icon-Exit" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        <ul class="Burger__Links">
             <li><a href="index.php">Domov</a></li>
             <li><a href="sluzby.php">Služby</a></li>
             <li><a href="kontakt.php">Kontakt</a></li>
@@ -73,4 +75,5 @@
             <li><a href="cennik.php">Cennik</a></li>
             <li><a href="fotogaleria.php">Fotogaléria</a></li>
         </ul>
+    </div>
 </div>
