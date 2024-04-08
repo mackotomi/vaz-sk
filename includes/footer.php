@@ -5,6 +5,7 @@
 
 <?php include 'gridguide.php'; ?>
 <script src="scripts/hamburger.js"></script>
+<script src="scripts/carousel.js"></script>
 </body>
 
 

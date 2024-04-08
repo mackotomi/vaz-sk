@@ -76,4 +76,6 @@
             <li><a href="fotogaleria.php">Fotogaléria</a></li>
         </ul>
     </div>
+
+    
 </div>
