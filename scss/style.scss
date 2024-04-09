@@ -4,35 +4,32 @@ html{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-body{
-    background-color: glob.$secondaryColor;
-}
-
 .Bg--Bar{
-    border-top: 10px solid glob.$primaryColor;
+    border-top: 10px solid glob.$primaryHue;
     height: 80px;
     width: 100%;
-    background-color: glob.$secondaryColor;
+    background-color: glob.$secondaryHue;
     background-image: url('../src/svg/pattern.svg');
 }
 
 header{
-    background-color: glob.$secondaryColor;
+    background-color: glob.$secondaryHue;
     padding: 60px 100px;
 
     .Header__Logo {
-        transition: .3s;
+        transition: .3s ease-in-out;
+        fill: glob.$primaryHue;
       }
 
     .Header__Logo:hover {
-        filter: brightness(115%); /* Brigthtness of Logo*/
-        transition: filter .3s;
+        fill: glob.$primaryHueL3; 
+        transition: .3s ease-in-out;
       }
 
     .active{
         font-weight: 600;
         padding-bottom: 5px;
-        border-bottom: solid red 2px;
+        border-bottom: solid glob.$activeColor 2px;
     }
 
     nav a{
@@ -45,7 +42,7 @@ header{
 
     ul a:hover{
         padding-bottom: 5px;
-        border-bottom: solid rgb(61, 0, 0) 2px;
+        border-bottom: solid glob.$hoverColor 2px;
         text-shadow: 0 0 .65px #ffffff, 0 0 .65px #ffffff;
     }
 
@@ -89,7 +86,7 @@ header{
     .Reservation--Button{
         display: flex;
         flex-direction: row;
-        background-color: glob.$secondaryColor;
+        background-color: glob.$secondaryHue;
         padding: 1rem;
         border-radius: 0.5rem;
         border: 1px solid #2D2D2D;

@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Reset */
-/*--------------------------------------*/
 /* Box sizing rules */
 html {
   box-sizing: border-box;
@@ -70,16 +69,30 @@ table {
   width: 100%;
 }
 
+/* 
+Text hue variables ↓ ↓ ↓ ↓ ↓ ↓
+*/
+/* 
+Navigation Links active and hover color:
+Both active and hover states use the same color variable.
+The hover state links to the active color variable with reduced opacity (0.5) 
+for decreased vibrancy and contrast.
+This ensures that changing the active color also updates the hover color.
+*/
+p {
+  color: #222222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+}
+
 html {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-body {
-  background-color: #000000;
-}
-
 .Bg--Bar {
-  border-top: 10px solid #FFC701;
+  border-top: 10px solid #FFCB01;
   height: 80px;
   width: 100%;
   background-color: #000000;
@@ -91,16 +104,17 @@ header {
   padding: 60px 100px;
 }
 header .Header__Logo {
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
+  fill: #FFCB01;
 }
 header .Header__Logo:hover {
-  filter: brightness(115%); /* Brigthtness of Logo*/
-  transition: filter 0.3s;
+  fill: #ffdb4e;
+  transition: 0.3s ease-in-out;
 }
 header .active {
   font-weight: 600;
   padding-bottom: 5px;
-  border-bottom: solid red 2px;
+  border-bottom: solid #ff0101 2px;
 }
 header nav a {
   letter-spacing: 0.1em;
@@ -110,7 +124,7 @@ header ul a {
 }
 header ul a:hover {
   padding-bottom: 5px;
-  border-bottom: solid rgb(61, 0, 0) 2px;
+  border-bottom: solid rgba(255, 1, 1, 0.5) 2px;
   text-shadow: 0 0 0.65px #ffffff, 0 0 0.65px #ffffff;
 }
 header .Navigation--Container {

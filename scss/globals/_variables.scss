@@ -1,4 +1,51 @@
+/* 
+Text hue variables ↓ ↓ ↓ ↓ ↓ ↓
+*/
 
-// Declaration of Color Variables
-$primaryColor: #FFC701;
-$secondaryColor: #000000;
+// Paragraphs Hue
+$paraColor: #222222;
+
+// Headings Hue
+$headingColor: #000000;
+
+
+// Declaration of Hue variables
+$primaryHue: #FFCB01;
+$secondaryHue: #000000;
+
+/* 
+Navigation Links active and hover color:
+Both active and hover states use the same color variable.
+The hover state links to the active color variable with reduced opacity (0.5) 
+for decreased vibrancy and contrast.
+This ensures that changing the active color also updates the hover color.
+*/
+
+$activeColor: #ff0101;
+$hoverColor: rgba($activeColor, 0.5);
+
+
+// Using the primary Hue and adding variants with the value going up.
+$primaryHueL1: lighten($primaryHue, 5%);
+$primaryHueL2: lighten($primaryHue, 10%);
+$primaryHueL3: lighten($primaryHue, 15%);
+$primaryHueL4: lighten($primaryHue, 20%);
+$primaryHueL5: lighten($primaryHue, 25%);
+$primaryHueL6: lighten($primaryHue, 30%);
+$primaryHueL7: lighten($primaryHue, 35%);
+$primaryHueL8: lighten($primaryHue, 40%);
+$primaryHueL9: lighten($primaryHue, 45%);
+$primaryHueL10: lighten($primaryHue, 50%);
+
+
+// Using the primary Hue and adding variants with the value going down.
+$primaryHueD1: darken($primaryHue, 5%);
+$primaryHueD2: darken($primaryHue, 10%);
+$primaryHueD3: darken($primaryHue, 15%);
+$primaryHueD4: darken($primaryHue, 20%);
+$primaryHueD5: darken($primaryHue, 25%);
+$primaryHueD6: darken($primaryHue, 30%);
+$primaryHueD7: darken($primaryHue, 35%);
+$primaryHueD8: darken($primaryHue, 40%);
+$primaryHueD9: darken($primaryHue, 45%);
+$primaryHueD10: darken($primaryHue, 50%);
