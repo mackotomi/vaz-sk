@@ -1,12 +1,13 @@
 <!-- Head Partial Including Doctype, Head, Body, Html Tags -->
 <?php include 'includes/head.php'; ?>
-
+    
+<!-- Carousel Componenet -->
 <div class="carousel">
-    <!-- Carousel turn page Arrows -->
 
-
-
+    <!-- Slides Container -->
     <div class="slides">
+
+        <!-- Slides Arrows -->
         <div class="iconArrow left">
             <svg height="50" viewBox="0 -960 960 960" width="50"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
         </div>

@@ -1,23 +1,23 @@
-@forward 'reset';
+@use 'globals/index' as glob;
 
 html{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color: rgb(231, 231, 231);
+    background-color: glob.$secondaryColor;
 }
 
 .Bg--Bar{
-    border-top: 2px solid #FFC701;
+    border-top: 10px solid glob.$primaryColor;
     height: 80px;
     width: 100%;
-    background-color: #000000;
+    background-color: glob.$secondaryColor;
     background-image: url('../src/svg/pattern.svg');
 }
 
 header{
-    background-color: #000000;
+    background-color: glob.$secondaryColor;
     padding: 60px 100px;
 
     .Header__Logo {
@@ -89,7 +89,7 @@ header{
     .Reservation--Button{
         display: flex;
         flex-direction: row;
-        background-color: #111111;
+        background-color: glob.$secondaryColor;
         padding: 1rem;
         border-radius: 0.5rem;
         border: 1px solid #2D2D2D;
@@ -115,7 +115,7 @@ header{
         align-items: center;
         width: 30px;
         height: 30px;
-        background-color: #FFC701;
+        background-color: yellow;
         border-radius: 0.3rem;
         // align-self: center;
     }
@@ -138,7 +138,7 @@ footer{
 .Burger--Icon-Exit{
     cursor: pointer;
     fill: white;
-    
+
 }
 
 /* This is the Exit icon Button SVG ↑ */
