@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>VAZ</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VAZ</title>
     <!-- Google fonts 'Roboto - Thin, Light, Regular, Medium, Bold, Black' -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,7 +65,7 @@
 
 <!-- Responsive Header Navigation Menu -->
 <div class="Burger--Menu">
-    <div class="Burger__container>
+    <div class="Burger__container">
         <svg class="Burger--Icon-Exit" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
         <ul class="Burger__Links">
             <li><a href="index.php">Domov</a></li>

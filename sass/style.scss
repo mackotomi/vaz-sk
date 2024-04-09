@@ -1,4 +1,4 @@
-@use 'reset';
+@forward 'reset';
 
 html{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -121,29 +121,10 @@ header{
     }
 }
 
-
-
-.slider--component{
-    height: 500px;
-    width: 100%;
-    background-color: grey;
-    padding: 60px 100px;
-
-    .slider__container{
-        width: 100%;
-        height: 400px;
-        background-color: orange;
-    }
-}
-
 footer{
     height: 300px;
     background-color: green;
 }
-
-
-
-
 
 
 /* 
@@ -152,9 +133,15 @@ footer{
 ! to toggle the display css property.
 */
 
+/* This is the Exit icon Button SVG ↓ */
+
 .Burger--Icon-Exit{
     cursor: pointer;
+    fill: white;
+    
 }
+
+/* This is the Exit icon Button SVG ↑ */
 
 .Burger--Menu{
     display: none; 
@@ -188,7 +175,6 @@ footer{
 .BurgerShowUp{
     display: block; 
 }
-
 
 /* ↓ Burger Menu Icon ↓ */
 
@@ -227,49 +213,57 @@ footer{
     width: 100%;
     background-color: rgb(0, 0, 0);
     position: relative;
-    
     /* Sliders Uniformity*/
-    & .slider{
+
+    .slides{
+        position: inherit;
+        height: 100%;
+        background-color: #FFC701;
+        margin-inline: auto;
+        width: calc(100% - 200px); // God praise the calc ♥
+     }
+
+    .slider{
         width: 100%;
         height: 100%;
-        position: absolute;
+        position: absolute;   
     }
     
     /* Slider Pages */
-    & .s1{
+    .s1{
         background-color: rgb(0, 145, 255);
     }
 
-    & .s2{  
+    .s2{  
         background-color: rgb(138, 43, 255);
     }
 
-    & .s3{
+    .s3{
         background-color: rgb(255, 35, 108);
     }
 
-    & .s4{
+    .s4{
         background-color: rgb(255, 244, 33);
     }
 
-    & .s5{
+    .s5{
         background-color: rgb(216, 0, 195);
         
     }
 
-    & .iconArrow{
+    .iconArrow{
         fill: white;
         cursor: pointer;
         position: absolute;
         z-index: 11;
     }
 
-    & .left{
+    .left{
         top: 50%;
         left: 1rem;
     }
     
-    & .right{
+    .right{
         top: 50%;
         right: 1rem;
     }
