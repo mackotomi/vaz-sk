@@ -2,7 +2,7 @@
 At the Top of the Hierrarchy are the Globals of Highest Importance.
 */
 
-@forward 'Globals/Index';
+@forward 'globals/index';
 
 /*
 Bellow is the forward to .scss index file 
@@ -12,7 +12,7 @@ associated with the component that is being forwarded to the index.scss
 in the components folder.This way things are more organized and better controlled.
 */
 
-@forward 'Components/Index';
+@forward 'components/index';
 
 
 

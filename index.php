@@ -1,15 +1,15 @@
 <!-- Head With Header--Component.php for Navigation -->
-<?php include 'Includes/Head--Component.php'; ?>
+<?php include 'includes/head--component.php'; ?>
     
 <!-- Carousel Component -->
-<?php include 'Includes/Carousel--Component.php'; ?>
+<?php include 'includes/carousel--component.php'; ?>
 
 <!-- About Us Component -->
-<?php include 'Includes/About--Component.php'; ?>
+<?php include 'includes/about--component.php'; ?>
 
 
 
 
 
 <!-- Footer Partial Including Body, Html End Tags-->
-<?php include 'Includes/Footer--Component.php'; ?>
+<?php include 'includes/footer--component.php'; ?>

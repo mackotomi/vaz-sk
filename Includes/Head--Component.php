@@ -24,4 +24,4 @@
 <html>
 <body>
     <!-- Header Navigation Component -->
-    <?php include 'Header--Nav--Component.php'; ?>
+    <?php include 'header--navigation--component.php'; ?>
