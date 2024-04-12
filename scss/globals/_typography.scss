@@ -1,4 +1,8 @@
-@use 'variables' as glob;
+@use 'Variables' as glob;
+
+html{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
 
 p{
     color: glob.$paraColor;

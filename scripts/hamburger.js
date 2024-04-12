@@ -5,7 +5,7 @@ let divBurgerMenu = document.querySelector(".Burger--Menu");
 let openBurgerIcon = document.querySelector(".Burger--Icon");
 
 // Target icon representing close X for the burger menu.
-let closeBurgerIcon = document.querySelector(".Burger--Icon-Exit");
+let closeBurgerIcon = document.querySelector(".Burger__Exit");
 
 // Add new custom class to div element with class of Burger--Menu to reveal the burger menu.
 openBurgerIcon.addEventListener("click", () => {

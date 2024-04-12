@@ -1,205 +1,25 @@
-@use 'globals/index' as glob;
-@use 'components/index';
-
-html{
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-}
-
-.Bg--Bar{
-    border-top: 10px solid glob.$primaryHue;
-    height: 80px;
-    width: 100%;
-    background-color: glob.$secondaryHue;
-    background-image: url('../src/svg/pattern.svg');
-}
-
-header{
-    background-color: glob.$secondaryHue;
-    padding: 60px 100px;
-
-    .Header__Logo {
-        transition: .3s ease-in-out;
-        fill: glob.$primaryHue;
-      }
-
-    .Header__Logo:hover {
-        fill: glob.$primaryHueL3; 
-        transition: .3s ease-in-out;
-      }
-
-    .active{
-        font-weight: 600;
-        padding-bottom: 5px;
-        border-bottom: solid glob.$activeColor 2px;
-    }
-
-    nav a{
-        letter-spacing: .1em;
-    }
-
-    ul a{
-        transition: text-shadow .3s;
-    }
-
-    ul a:hover{
-        padding-bottom: 5px;
-        border-bottom: solid glob.$hoverColor 2px;
-        text-shadow: 0 0 .65px #ffffff, 0 0 .65px #ffffff;
-    }
-
-    .Navigation--Container{
-         border-top: solid 1px rgb(36, 36, 36);
-         border-bottom: solid 1px rgb(36, 36, 36);
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-         padding: 1rem 0;
-    }
-
-    .Navigation--Container nav{
-        transition: .3s ease-in-out;
-    }
-
-    .Header__Logo{
-        max-width: 200px;
-        min-width: 100px;
-    }
-
-    ul{
-        display: flex;
-    }
-
-    ul a{
-        color: white;
-        text-transform: uppercase;
-        font-weight: 100;
-    }
-
-    li{
-        border-right: 1px solid rgb(70, 70, 70);
-        padding: 0 1rem;
-    }
-
-    li:last-of-type {
-        border-right: none;
-    }
-
-    .Reservation--Button{
-        display: flex;
-        flex-direction: row;
-        background-color: glob.$secondaryHue;
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border: 1px solid #2D2D2D;
-        color: white;
-        text-transform: uppercase;
-    }
-
-    .Reservation--Button img{
-        padding-right: 0.8rem;
-        scale: 1.3;
-    }
-}
-
-.Languages{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: 1rem;
-
-    a{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 30px;
-        height: 30px;
-        background-color: yellow;
-        border-radius: 0.3rem;
-        // align-self: center;
-    }
-}
-
-footer{
-    height: 300px;
-    background-color: green;
-}
-
-
-/* 
-! Bellow is the setup 
-! for the Javascript
-! to toggle the display css property.
+/*
+At the Top of the Hierrarchy are the Globals of Highest Importance.
 */
 
-/* This is the Exit icon Button SVG ↓ */
+@forward 'Globals/Index';
 
-.Burger--Icon-Exit{
-    cursor: pointer;
-    fill: white;
+/*
+Bellow is the forward to .scss index file 
+that contains all the individual website 
+layout component styles. Each component has its own .scss style within a file
+associated with the component that is being forwarded to the index.scss
+in the components folder.This way things are more organized and better controlled.
+*/
 
-}
-
-/* This is the Exit icon Button SVG ↑ */
-
-.Burger--Menu{
-    display: none; 
-    inset: 0;
-    position: fixed;
-    background-color: #181818;
-    z-index: 999;
-
-    ul{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: block;
-        font-size: 2rem;
-    }
-
-    nav li{
-        border-right: none;
-        padding: 0;
-    }
-
-    a{
-        font-family: 'Roboto',Arial, Helvetica, sans-serif;
-        color: rgb(223, 223, 223);
-        text-transform: uppercase;
-        font-weight: 600;
-    }
-}
-
-.BurgerShowUp{
-    display: block; 
-}
-
-/* ↓ Burger Menu Icon ↓ */
-
-.Burger--Icon{
-    display: none;
-
-    img{
-        scale: 1.0;
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
-        filter: invert(1) grayscale(100%);
-    }
-}
-
-/* ↑ Burger Menu Icon ↑ */
+@forward 'Components/Index';
 
 
-@media screen and (max-width: 1340px) {
-    .Burger--Icon{
-        display: block;
-    }
 
-    .Navigation--Container nav{
-        display: none;
-    }
-}
+
+
+
+
 
 
 
