@@ -108,7 +108,7 @@ The possibilities are endless
             align-items: center;
             width: 30px;
             height: 30px;
-            background-color: yellow;
+            background-color: glob.$primaryHue;
             border-radius: 0.3rem;
             // align-self: center;
         }
@@ -181,14 +181,12 @@ The possibilities are endless
     display: block; 
 }
 
-
-
 @media screen and (max-width: 1340px) {
-    .Burger--Icon{
+    .Header__Burger{
         display: block;
     }
 
-    .Navigation--Container nav{
+    .Header__Navigation nav{
         display: none;
     }
 }

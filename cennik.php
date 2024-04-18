@@ -2,7 +2,7 @@
 <?php include 'includes/head--component.php'; ?>
 
     <h1>Strank pre Cennik</h1>
-
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla repudiandae mollitia, sapiente officia molestiae illo accusantium ratione ut repellat maiores ea aut. Fugiat modi quod quis eaque magnam officia dolores ut expedita laudantium. Dolorem natus accusamus iste libero non doloremque odio eum animi saepe minus enim nulla repellat consectetur possimus, harum nemo voluptate dicta. Aperiam iusto tempore cum. Nihil consequuntur ipsum ducimus, quos distinctio similique reiciendis harum necessitatibus eos corporis unde nostrum officiis dicta facilis excepturi ipsa veritatis nemo natus id ea, animi quisquam? Eveniet consectetur fugiat illum minima, saepe natus quidem voluptatibus. Facere praesentium, commodi perspiciatis optio officia maiores ab est veritatis asperiores aspernatur recusandae omnis vero blanditiis! Rem dolorem dicta eius maxime obcaecati magni eum dolor adipisci sapiente commodi voluptatum placeat debitis vitae recusandae odio, sed a esse laboriosam doloremque ab dolore hic eos architecto. Deserunt ex quo corporis est odio quod ullam expedita obcaecati ab culpa, blanditiis laboriosam sunt facere eius. Illum quisquam voluptates deleniti, placeat dignissimos aspernatur. Dignissimos cupiditate rem vero laborum porro itaque minus error illo blanditiis. Nam id corporis ut dolore cum blanditiis repudiandae iure fugit? Animi soluta quae minus fugit facere quasi similique quam modi illum? Aspernatur, obcaecati! Autem doloremque ducimus nemo sunt?</p>
 
 <!-- Footer Partial Including Body, Html End Tags-->
 <?php include 'includes/footer--component.php'; ?>

@@ -2,7 +2,7 @@
 let divBurgerMenu = document.querySelector(".Burger--Menu");
 
 // Target icon representing the burger menu.
-let openBurgerIcon = document.querySelector(".Burger--Icon");
+let openBurgerIcon = document.querySelector(".Header__Burger");
 
 // Target icon representing close X for the burger menu.
 let closeBurgerIcon = document.querySelector(".Burger__Exit");

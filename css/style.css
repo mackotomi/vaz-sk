@@ -197,7 +197,7 @@ The possibilities are endless
   align-items: center;
   width: 30px;
   height: 30px;
-  background-color: yellow;
+  background-color: #FFCB01;
   border-radius: 0.3rem;
 }
 .Header__Burger {
@@ -254,10 +254,10 @@ The possibilities are endless
 }
 
 @media screen and (max-width: 1340px) {
-  .Burger--Icon {
+  .Header__Burger {
     display: block;
   }
-  .Navigation--Container nav {
+  .Header__Navigation nav {
     display: none;
   }
 }
@@ -343,4 +343,14 @@ The possibilities are endless
   cursor: pointer;
   background-color: black;
   border-radius: 0.3rem;
+}
+
+.image--gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.image--gallery img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

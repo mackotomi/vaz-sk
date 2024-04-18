@@ -1,0 +1,12 @@
+// Grid enabled for image gallery.
+.image--gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    //Images set to 100% of their grid cell container.
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
