@@ -3,7 +3,7 @@
     <!--Patter Bar -->
     <div class="Bar"></div>
     <!-- Header Navigation -->
-    <header class="Header">
+    <header id="header" class="Header">
         <div class="Header__Navigation">
             <!-- Logo -->
             <div>
