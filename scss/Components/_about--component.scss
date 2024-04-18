@@ -1,14 +1,29 @@
-.about--component{
+#about--container{
+    padding: 2rem 0;
+}
+
+.about{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: rgb(255, 255, 255);
     margin-inline: 100px;
 
-    .about__copywright{
+    &__copywright{
         max-width: 250px;
+        p{
+            padding-top: .3rem;
+        }
+    }
+
+    &__divider{
+        width: .1rem;
+        height: 180px;
+        background-color: grey;
     }
 
     .vaz{
         font-weight: 400;
     }
+
 }

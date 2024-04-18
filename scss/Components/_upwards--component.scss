@@ -1,4 +1,6 @@
-.Upwards--Component svg{
+@use '../globals/variables' as glob;
+
+.upwards--component svg{
     position: fixed;
     bottom: 1rem;
     right: 1rem;
@@ -6,4 +8,8 @@
     cursor: pointer;
     background-color: black;
     border-radius: .3rem;
+
+    svg:hover{
+        fill: glob.$primaryHue;
+    }
 }

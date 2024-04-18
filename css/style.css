@@ -335,7 +335,7 @@ The possibilities are endless
   height: 300px;
 }
 
-.Upwards--Component svg {
+.upwards--component svg {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
@@ -343,6 +343,9 @@ The possibilities are endless
   cursor: pointer;
   background-color: black;
   border-radius: 0.3rem;
+}
+.upwards--component svg svg:hover {
+  fill: #FFCB01;
 }
 
 .image--gallery {
@@ -355,15 +358,28 @@ The possibilities are endless
   object-fit: cover;
 }
 
-.about--component {
+#about--container {
+  padding: 2rem 0;
+}
+
+.about {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: rgb(255, 255, 255);
   margin-inline: 100px;
 }
-.about--component .about__copywright {
+.about__copywright {
   max-width: 250px;
 }
-.about--component .vaz {
+.about__copywright p {
+  padding-top: 0.3rem;
+}
+.about__divider {
+  width: 0.1rem;
+  height: 180px;
+  background-color: grey;
+}
+.about .vaz {
   font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

@@ -18,12 +18,12 @@
             <!-- Menu Navigation -->
             <nav>
                 <ul>
-                    <li><a href="Index.php" class="Header__Active" >Domov</a></li>
-                    <li><a href="Sluzby.php">Služby</a></li>
-                    <li><a href="Kontakt.php">Kontakt</a></li>
-                    <li><a href="Dokumenty.php">Dokumenty</a></li>
-                    <li><a href="Cennik.php">Cennik</a></li>
-                    <li><a href="Fotogaleria.php">Fotogaléria</a></li>
+                    <li><a href="index.php" class="Header__Active" >Domov</a></li>
+                    <li><a href="sluzby.php">Služby</a></li>
+                    <li><a href="kontakt.php">Kontakt</a></li>
+                    <li><a href="dokumenty.php">Dokumenty</a></li>
+                    <li><a href="cennik.php">Cennik</a></li>
+                    <li><a href="fotogaleria.php">Fotogaléria</a></li>
                 </ul>
             </nav>
             <!-- Burger Menu Icon -->
