@@ -1,0 +1,14 @@
+.about--component{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-inline: 100px;
+
+    .about__copywright{
+        max-width: 250px;
+    }
+
+    .vaz{
+        font-weight: 400;
+    }
+}

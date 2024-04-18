@@ -1,16 +1,5 @@
-<div id="Reviews-Component">
-    <ul>
-        <li>a</li>
-        <li>b</li>
-        <li>c</li>
-        <li>d</li>
-        <li>e</li>
-    </ul>
-</div>
-
-
-<div id="Footer--Component">
-    <footer class="Footer">
+<div id="footer--component">
+    <footer class="footer">
         
     </footer>
 </div>

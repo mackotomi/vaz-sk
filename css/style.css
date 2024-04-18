@@ -325,12 +325,12 @@ The possibilities are endless
   z-index: 10;
 }
 
-#Footer--Component {
+#footer--component {
   background-color: rgb(148, 148, 148);
   display: block;
 }
 
-.Footer {
+.footer {
   width: 100%;
   height: 300px;
 }
@@ -353,4 +353,17 @@ The possibilities are endless
   width: 100%;
   height: 300px;
   object-fit: cover;
+}
+
+.about--component {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin-inline: 100px;
+}
+.about--component .about__copywright {
+  max-width: 250px;
+}
+.about--component .vaz {
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
