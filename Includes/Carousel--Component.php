@@ -32,7 +32,7 @@
         <div class="slider s2">
             <div class="sliderContent">
                 <div class="slider__heading">
-                    <h1>Pneuservis +</br>geometria</h1>
+                    <h1>Vyjazd na miesto +</br>expresne</h1>
                     <p>Ponúkame Vám službu komplet prezutia pneumatík s geometriou a s možnostou skladovania pneumatík za zvíhodnenu cenu, pramo u nás v obci Macove.
                     Prezuvamé Osobitné Autá / Nakladné Autá.
                     </p>
