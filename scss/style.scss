@@ -1,15 +1,18 @@
 /*
-At the Top of the Hierrarchy are the Globals of Highest Importance.
+At the Top of the Hierrarchy are the @Globals, 
+the highest king of highest importance.
 */
 
 @forward 'globals/index';
 
 /*
-Bellow is the forward to .scss index file 
+Bellow is the @forward to .scss index file 
 that contains all the individual website 
-layout component styles. Each component has its own .scss style within a file
+layout components with their associated styles.
+Each component has its own .scss style within a file
 associated with the component that is being forwarded to the index.scss
-in the components folder.This way things are more organized and better controlled.
+in the components folder.
+This way things are more organized and better controlled.
 */
 
 @forward 'components/index';

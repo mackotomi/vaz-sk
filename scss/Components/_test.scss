@@ -1,0 +1,25 @@
+@use '../globals/variables' as glob;
+
+.one{
+    font-size: glob.$font-size-h1;
+}
+
+.two{
+    font-size: glob.$font-size-h2;
+}
+
+.three{
+    font-size: glob.$font-size-h3;
+}
+
+.four{
+    font-size: glob.$font-size-h4;
+}
+
+.five{
+    font-size: glob.$font-size-h5;
+}
+
+.six{
+    font-size: glob.$font-size-small;
+}
