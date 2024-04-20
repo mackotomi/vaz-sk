@@ -73,9 +73,6 @@ table {
 }
 
 /* 
-Text hue variables ↓ ↓ ↓ ↓ ↓ ↓
-*/
-/* 
 Navigation Links active and hover color:
 Both active and hover states use the same color variable.
 The hover state links to the active color variable with reduced opacity (0.5) 

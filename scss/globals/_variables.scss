@@ -1,13 +1,9 @@
-/* 
-Text hue variables ↓ ↓ ↓ ↓ ↓ ↓
-*/
 
 // Paragraphs Hue
 $paraColor: #222222;
 
 // Headings Hue
 $headingColor: #000000;
-
 
 // Declaration of Hue variables
 $primaryHue: #FFCB01;
@@ -49,3 +45,17 @@ $primaryHueD7: darken($primaryHue, 35%);
 $primaryHueD8: darken($primaryHue, 40%);
 $primaryHueD9: darken($primaryHue, 45%);
 $primaryHueD10: darken($primaryHue, 50%);
+
+// Font sizes variables  ↓
+// Default font size is 16px → 1rem.
+$default-font-size: 1rem;
+// Font sizes from 1rem * 1.2
+$font-size-p: $default-font-size;
+$font-size-h6: $font-size-p * 1.2;
+$font-size-h5: $font-size-h6 * 1.2;
+$font-size-h4: $font-size-h5 * 1.2;
+$font-size-h3: $font-size-h4 * 1.2;
+$font-size-h2: $font-size-h3 * 1.2;
+$font-size-h1: $font-size-h2 * 1.2;
+// Small font size bellow 1rem / 1.2
+$font-size-small: $default-font-size / 1.2;
