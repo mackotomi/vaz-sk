@@ -358,6 +358,9 @@ The possibilities are endless
 .about .vaz {
   font-weight: 400;
 }
+.about__us p {
+  color: black;
+}
 
 #footer--component {
   background-color: rgb(148, 148, 148);
@@ -392,6 +395,14 @@ The possibilities are endless
   width: 100%;
   height: 300px;
   object-fit: cover;
+}
+
+.prices {
+  color: red;
+}
+
+table {
+  background-color: green;
 }
 
 .one {

@@ -26,4 +26,4 @@
           // Toggle the 'hide' class on the grid container
           gridContainer.classList.toggle('hide');
         });
-      </script>
+    </script>
