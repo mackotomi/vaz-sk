@@ -383,7 +383,9 @@ The possibilities are endless
 }
 
 .image--gallery {
+  padding: 0 2rem;
   display: grid;
+  grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
 }
 .image--gallery img {
