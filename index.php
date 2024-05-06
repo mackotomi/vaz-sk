@@ -1,4 +1,4 @@
-<!-- Head With Header--Component.php for Navigation -->
+<!-- Head With Header--Component.php for Navigation that is on each page. -->
 <?php include 'includes/head--component.php'; ?>
     
 <!-- Carousel Component -->
@@ -7,5 +7,8 @@
 <!-- About Us Component -->
 <?php include 'includes/about--component.php'; ?>
 
-<!-- Footer Partial Including Body, Html End Tags-->
+<!-- Services Component -->
+<?php include 'includes/services--component.php'; ?>
+
+<!-- Footer Partial Including Body, Html End Tags that is on each page.-->
 <?php include 'includes/footer--component.php'; ?>
