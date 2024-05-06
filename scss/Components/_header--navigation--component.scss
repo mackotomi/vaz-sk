@@ -6,7 +6,7 @@ turned on/off with display property set to :none & :block
 The possibilities are endless
 */
 
-.Bar{
+.bar{
     border-top: 10px solid glob.$primaryHue;
     height: 80px;
     width: 100%;
@@ -80,7 +80,7 @@ The possibilities are endless
         border-right: none;
     }
 
-    &__seservation{
+    &__reservation{
         display: flex;
         flex-direction: row;
         background-color: glob.$secondaryHue;
