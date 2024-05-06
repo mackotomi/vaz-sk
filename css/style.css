@@ -4,6 +4,21 @@ At the Top of the Hierrarchy are the @Globals,
 the highest king of highest importance.
 */
 /* Reset */
+/* Scroll Bar Width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Handle of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+/* Track of the scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
 /* Box sizing rules */
 html {
   box-sizing: border-box;
@@ -261,6 +276,29 @@ The possibilities are endless
     display: none;
   }
 }
+#footer--component {
+  background-color: rgb(148, 148, 148);
+  display: block;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+}
+
+.upwards--component svg {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  fill: white;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 0.3rem;
+}
+.upwards--component svg svg:hover {
+  fill: #FFCB01;
+}
+
 /*
 ! CAROUSEL STYLING BELLOW ↓
 */
@@ -273,11 +311,14 @@ The possibilities are endless
   /* Sliders Uniformity*/
   /* Slider Pages */
 }
-.carousel .slider__heading h1, .carousel p, .carousel span {
+.carousel .slider__heading h1, .carousel .slider__heading p, .carousel .slider__heading span {
   color: white;
 }
 .carousel .sliderContent {
   padding: 5rem 10rem;
+}
+.carousel .no-card {
+  color: white;
 }
 .carousel .slides {
   position: inherit;
@@ -333,56 +374,35 @@ The possibilities are endless
   z-index: 10;
 }
 
-#about--container {
-  padding: 2rem 0;
-}
-
-.about {
+.about--component {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(255, 255, 255);
-  margin-inline: 100px;
+  background-color: rgb(255, 57, 57);
+  padding: 0 100px;
 }
-.about__copywright {
-  max-width: 250px;
+.about--component__copywright {
+  max-width: 400px;
 }
-.about__copywright p {
+.about--component__copywright p {
   padding-top: 0.3rem;
 }
-.about__divider {
+.about--component__divider {
   width: 0.1rem;
   height: 180px;
   background-color: grey;
 }
-.about .vaz {
+.about--component .vaz {
   font-weight: 400;
 }
-.about__us p {
+.about--component__us p {
   color: black;
 }
 
-#footer--component {
-  background-color: rgb(148, 148, 148);
-  display: block;
-}
-
-.footer {
-  width: 100%;
-  height: 300px;
-}
-
-.upwards--component svg {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  fill: white;
-  cursor: pointer;
-  background-color: black;
-  border-radius: 0.3rem;
-}
-.upwards--component svg svg:hover {
-  fill: #FFCB01;
+.services--component {
+  background-color: orange;
+  height: 500px;
+  padding: 0 100px;
 }
 
 .image--gallery {

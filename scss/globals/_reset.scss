@@ -1,5 +1,20 @@
 /* Reset */
 
+/* Scroll Bar Width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Handle of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+/* Track of the scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
 /* Box sizing rules */
 html {
     box-sizing: border-box;

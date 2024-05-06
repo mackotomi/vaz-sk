@@ -1,16 +1,13 @@
-#about--container{
-    padding: 2rem 0;
-}
 
-.about{
+.about--component{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(255, 255, 255);
-    margin-inline: 100px;
+    background-color: rgb(255, 57, 57);
+    padding: 0 100px;
 
     &__copywright{
-        max-width: 250px;
+        max-width: 400px;
         p{
             padding-top: .3rem;
         }

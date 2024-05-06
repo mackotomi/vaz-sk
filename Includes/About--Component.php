@@ -1,6 +1,6 @@
 <!-- About VAZ Component -->
-<div id="about--container">
-    <div class="about">
+<div class="about--container">
+    <div class="about--component">
         <div class="about__copywright">
             <h1>O VAZ -<span class="vaz">[V&Z]</span></h1>
             <p class='about__us'>Vnizkli sme v roku 2007 a sme na trhu 17 rokov. V daka dlhoročným skúsenostiam mame zdravu firmu a kvalitne sluzby. Klientom ponukame riesenia aby vysledok bol vzdy cenovo prijatelny a pozitivny. Radi prijmame konstruktivnu kritiku, ktora nas posuva v pred zlepsovat sluzby a patrit medzi najlepsich.</p>

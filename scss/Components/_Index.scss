@@ -1,8 +1,14 @@
+// These are components of all web pages ↓
 @forward 'header--navigation--component';
-@forward 'carousel--component';
-@forward 'about--component';
 @forward 'footer--component';
 @forward 'upwards--component';
+
+// These are components of the Home page ↓
+@forward 'carousel--component';
+@forward 'about--component';
+@forward 'services--component';
 @forward 'gallery--component';
 @forward 'prices--component';
 @forward 'test';
+
+

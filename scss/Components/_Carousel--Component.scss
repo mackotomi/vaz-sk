@@ -10,12 +10,16 @@
     position: relative;
     /* Sliders Uniformity*/
 
-    .slider__heading h1, p, span{
+    .slider__heading h1, .slider__heading p, .slider__heading span{
         color: white;
     }
 
     .sliderContent{
         padding: 5rem 10rem;
+    }
+
+    .no-card{
+        color: white;
     }
 
     .slides{
