@@ -1,4 +1,4 @@
-<div class="Gallery--Component"></div>
+<div class="gallery--component"></div>
 <ul class="image--gallery">
         <li><a href="#"><img src="src/images/02.webp" alt=""></a></li>
         <li><a href="#"><img src="src/images/03.webp" alt=""></a></li>

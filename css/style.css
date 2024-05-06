@@ -114,41 +114,41 @@ The possibilities are endless
   background-image: url("../src/svg/pattern.svg");
 }
 
-#Header--Component {
+#header--component {
   display: block;
 }
 
-.Header {
+.header {
   background-color: #000000;
   padding: 60px 100px;
   /* ↓ Burger Menu Icon ↓ */
   /* ↑ Burger Menu Icon ↑ */
 }
-.Header__Logo {
+.header__logo {
   transition: 0.3s ease-in-out;
   fill: #FFCB01;
   max-width: 200px;
   min-width: 100px;
 }
-.Header__Logo:hover {
+.header__logo:hover {
   fill: #ffdb4e;
   transition: 0.3s ease-in-out;
 }
-.Header__Active {
+.header__active {
   font-weight: 600;
   padding-bottom: 5px;
   border-bottom: solid #ff0101 2px;
 }
-.Header__nav a {
+.header__nav a {
   letter-spacing: 0.1em;
   transition: text-shadow 0.3s;
 }
-.Header__ul a:hover {
+.header__ul a:hover {
   padding-bottom: 5px;
   border-bottom: solid rgba(255, 1, 1, 0.5) 2px;
   text-shadow: 0 0 0.65px #ffffff, 0 0 0.65px #ffffff;
 }
-.Header__Navigation {
+.header__navigation {
   border-top: solid 1px rgb(36, 36, 36);
   border-bottom: solid 1px rgb(36, 36, 36);
   display: flex;
@@ -156,22 +156,22 @@ The possibilities are endless
   align-items: center;
   padding: 1rem 0;
 }
-.Header ul {
+.header ul {
   display: flex;
 }
-.Header ul a {
+.header ul a {
   color: white;
   text-transform: uppercase;
   font-weight: 100;
 }
-.Header li {
+.header li {
   border-right: 1px solid rgb(70, 70, 70);
   padding: 0 1rem;
 }
-.Header li:last-of-type {
+.header li:last-of-type {
   border-right: none;
 }
-.Header__Reservation {
+.header__seservation {
   display: flex;
   flex-direction: row;
   background-color: #000000;
@@ -181,17 +181,17 @@ The possibilities are endless
   color: white;
   text-transform: uppercase;
 }
-.Header__Reservation img {
+.header__seservation img {
   padding-right: 0.8rem;
   scale: 1.3;
 }
-.Header__Languages {
+.header__languages {
   display: flex;
   flex-direction: column;
   gap: 10px;
   font-size: 1rem;
 }
-.Header__Languages a {
+.header__languages a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -200,10 +200,10 @@ The possibilities are endless
   background-color: #FFCB01;
   border-radius: 0.3rem;
 }
-.Header__Burger {
+.header__burger {
   display: none;
 }
-.Header__Burger img {
+.header__burger img {
   scale: 1;
   width: 50px;
   height: 50px;
@@ -217,14 +217,14 @@ The possibilities are endless
 ! to toggle the display css property.
 */
 /* This is the Exit icon Button SVG ↑ */
-.Burger--Menu {
+.burger--menu {
   display: none;
   inset: 0;
   position: fixed;
   background-color: #181818;
   z-index: 999;
 }
-.Burger--Menu ul {
+.burger--menu ul {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -232,11 +232,11 @@ The possibilities are endless
   display: block;
   font-size: 2rem;
 }
-.Burger--Menu nav li {
+.burger--menu nav li {
   border-right: none;
   padding: 0;
 }
-.Burger--Menu a {
+.burger--menu a {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: rgb(223, 223, 223);
   text-transform: uppercase;
@@ -244,20 +244,20 @@ The possibilities are endless
 }
 
 /* This is the Exit icon Button SVG ↓ */
-.Burger__Exit {
+.burger__exit {
   cursor: pointer;
   fill: white;
 }
 
-.BurgerShowUp {
+.burgerShowUp {
   display: block;
 }
 
 @media screen and (max-width: 1340px) {
-  .Header__Burger {
+  .header__burger {
     display: block;
   }
-  .Header__Navigation nav {
+  .header__navigation nav {
     display: none;
   }
 }

@@ -15,27 +15,27 @@ The possibilities are endless
 }
 
 
-#Header--Component{
+#header--component{
     display: block;
 }
 
-.Header{
+.header{
     background-color: glob.$secondaryHue;
     padding: 60px 100px;
 
-    &__Logo {
+    &__logo {
         transition: .3s ease-in-out;
         fill: glob.$primaryHue;
         max-width: 200px;
         min-width: 100px;
     }
 
-    &__Logo:hover {
+    &__logo:hover {
         fill: glob.$primaryHueL3; 
         transition: .3s ease-in-out;
     }
 
-    &__Active{
+    &__active{
         font-weight: 600;
         padding-bottom: 5px;
         border-bottom: solid glob.$activeColor 2px;
@@ -52,7 +52,7 @@ The possibilities are endless
         text-shadow: 0 0 .65px #ffffff, 0 0 .65px #ffffff;
     }
 
-    &__Navigation{
+    &__navigation{
          border-top: solid 1px rgb(36, 36, 36);
          border-bottom: solid 1px rgb(36, 36, 36);
          display: flex;
@@ -80,7 +80,7 @@ The possibilities are endless
         border-right: none;
     }
 
-    &__Reservation{
+    &__seservation{
         display: flex;
         flex-direction: row;
         background-color: glob.$secondaryHue;
@@ -96,7 +96,7 @@ The possibilities are endless
         }
     }
 
-    &__Languages{
+    &__languages{
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -116,7 +116,7 @@ The possibilities are endless
 
     /* ↓ Burger Menu Icon ↓ */
 
-    &__Burger{
+    &__burger{
         display: none;
 
         img{
@@ -140,7 +140,7 @@ The possibilities are endless
 
 /* This is the Exit icon Button SVG ↑ */
 
-.Burger--Menu{
+.burger--menu{
     display: none; 
     inset: 0;
     position: fixed;
@@ -171,22 +171,22 @@ The possibilities are endless
 
 /* This is the Exit icon Button SVG ↓ */
 
-.Burger__Exit{
+.burger__exit{
     cursor: pointer;
     fill: white;
 
 }
 
-.BurgerShowUp{
+.burgerShowUp{
     display: block; 
 }
 
 @media screen and (max-width: 1340px) {
-    .Header__Burger{
+    .header__burger{
         display: block;
     }
 
-    .Header__Navigation nav{
+    .header__navigation nav{
         display: none;
     }
 }

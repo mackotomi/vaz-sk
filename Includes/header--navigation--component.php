@@ -1,5 +1,5 @@
 <!-- Header Component -->
-<div id="Header--Component">
+<div id="header--component">
     <!--Patter Bar -->
     <div class="Bar"></div>
     <!-- Header Navigation -->

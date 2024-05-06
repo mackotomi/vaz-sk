@@ -10,5 +10,5 @@
 <!-- Services Component -->
 <?php include 'includes/services--component.php'; ?>
 
-<!-- Footer Partial Including Body, Html End Tags that is on each page.-->
+<!-- Footer Partial Including Body, Html End Tags that is on each page. -->
 <?php include 'includes/footer--component.php'; ?>
